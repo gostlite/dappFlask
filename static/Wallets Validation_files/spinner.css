@@ -1,0 +1,24 @@
+.spinner {
+    text-align: center;
+    margin: 5rem auto;
+    background-repeat: no-repeat;
+    /* background-color: #f38e82; */
+  }
+  
+  .spinner svg {
+    height: 6rem;
+    width: 6rem;
+    fill: #f38e82;
+    animation: 2s linear infinite rotate;
+    
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
